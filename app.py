@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from Prediction import get_prediction, LabelEncoder
 from load_model import get_model
 
-rf_model=get_model(model_path = '')
+rf_model=get_model(model_path = 'RTA_severity model.pkl')
 
 st.set_page_config(page_title="Accident Severity Prediction App",
                    page_icon=" 🚧 ", layout="wide")
